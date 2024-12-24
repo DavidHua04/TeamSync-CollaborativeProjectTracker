@@ -1,6 +1,6 @@
 ## Github Group Work To-DO App
 ### Step 1: Define the Features and Structure
-The key features you want include:
+The key features to include:
 - **Multiple Projects**: Each project will have its own set of tasks and coworkers.
 - **Coworker Management**: Store coworker names and emails.
 - **Task Management**: Each task will include:
