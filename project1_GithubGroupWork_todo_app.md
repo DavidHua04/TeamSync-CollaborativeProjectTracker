@@ -17,10 +17,10 @@ The key features to include:
 Based on your skill set and project requirements, here’s a recommended tech stack:
 - **Frontend (UI)**:
   - **HTML/CSS** for structure and styling.
-  - **JavaScript** (or frameworks like React if you’re interested in learning more advanced frontend) for dynamic functionality.
+  - **JavaScript** for dynamic functionality.
   
 - **Backend**:
-  - **Python (Flask or Django)**: You are already familiar with Python, so a lightweight framework like Flask could handle backend logic. Flask can interact with the GitHub API and send emails using libraries like `smtplib` or `Flask-Mail`.
+  - **Python (Flask or Django)**: A lightweight framework like Flask could handle backend logic. Flask can interact with the GitHub API and send emails using libraries like `smtplib` or `Flask-Mail`.
   
 - **Database**:
   - **SQLite or PostgreSQL**: To store coworkers, tasks, and project data.
@@ -32,7 +32,7 @@ Based on your skill set and project requirements, here’s a recommended tech st
   - Use Python’s `smtplib` or an external service like **SendGrid** to send reminder emails when tasks are overdue.
 
 ### Step 3: GitHub API Integration
-You’ll need to:
+We need to:
 1. **Authenticate**: Set up GitHub API authentication (OAuth or personal access tokens).
 2. **Fetch Commits**: Use the API to retrieve the commit history for a specific repository. Check if any commit message matches the one assigned to the task.
 3. **Deadline Checking**: Compare the commit date to the task's deadline. If no matching commit is found before the deadline, send a reminder email.
@@ -45,7 +45,7 @@ You’ll need to:
 - **Add New Projects/Tasks/Coworkers**: Create forms for adding new projects, coworkers, and tasks.
 
 ### Step 5: Backend Logic for Task Management
-You’ll need to:
+We need to:
 - **Create New Tasks**: Allow users to add tasks, assign coworkers, set a deadline, and enter the expected GitHub commit message.
 - **Track Progress**: Periodically check GitHub commit history (perhaps using a cron job or scheduled task) to see if tasks are completed.
 
