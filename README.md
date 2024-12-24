@@ -1,6 +1,3 @@
-Here's a brief template for your `README.md` file for the "TeamSync: Collaborative Project Tracker" project:
-
-
 # TeamSync: Collaborative Project Tracker
 
 ## Overview
@@ -21,7 +18,7 @@ TeamSync is a project management tool designed to help teams track and manage th
 ## Setup
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/TeamSync-Collaborative-Project-Tracker.git
+   git clone https://github.com/DavidHua04/TeamSync-CollaborativeProjectTracker.git
    ```
 2. Install dependencies:
    ```
