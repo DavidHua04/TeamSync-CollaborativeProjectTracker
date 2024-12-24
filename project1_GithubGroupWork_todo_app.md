@@ -1,4 +1,4 @@
-## Github Group Work To-DO App
+## TeamSync: Collaborative Project Tracker
 ### Step 1: Define the Features and Structure
 The key features to include:
 - **Multiple Projects**: Each project will have its own set of tasks and coworkers.
